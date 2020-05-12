@@ -1,0 +1,39 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2019/04/10/11/56/watercolour-4116932_960_720.png");
+");
+  background-size: auto 100vh; 
+  font-family: verdana;   
+  height: 100vh;
+}
+
+.menu {
+  background-color: pink; 
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  color: teal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-subtitle, 
+.site-title {
+  color: teal;
+  text-align: center;
+}
+
+.site-subtitle {
+  font-style: italic;
+}
+
+.menu li {
+  list-style: none;
+}
